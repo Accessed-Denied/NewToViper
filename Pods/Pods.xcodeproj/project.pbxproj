@@ -7,12 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6546916460E071309F5E928A8D7F48C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		7A53C4BF7C1A320A133E102A93464FAA /* Pods-NewToViper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8964B9450E1D4828AE47F0F9D76C0B51 /* Pods-NewToViper-dummy.m */; };
+		0CF2F294930079B8EDD41D266F740AB3 /* SainiUIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937D4A2F8F7560874FA482E3DE79770D /* SainiUIImage.swift */; };
+		0EC98FC5DD9923C52F34E779BCAE43C4 /* SainiUtils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFC00D5064F8D5BD62BEE37DB5394CA /* SainiUtils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		113E6A93D813D157FF4EC19E7AB7DF14 /* MyCircularSlider+IB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAED14068A564E69A968CB0C8DC12D6 /* MyCircularSlider+IB.swift */; };
+		18462EBBBB6B089C4D8AE245A007E600 /* SainiUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E1BF59E82B6CD8D22575CE26046734 /* SainiUIViewController.swift */; };
+		1AD8398CBFB73123FFD05F48A02B7FF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		24759E9C656E30DA3F83C8C791A89A65 /* SainiTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF025CF54D586C2B85541E98B559312 /* SainiTableView.swift */; };
+		283EEC177AF0A515EE52EDCAF2574E6F /* FloatRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DAD9BCFA82AC3277599322C2C7027A /* FloatRatingView.swift */; };
+		2A2E44C8C62A1B4D8100F460F0015B86 /* SainiLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8173773A6141BF345F7D8F9C384FB6CB /* SainiLocationManager.swift */; };
+		3099C198CA71A798A5A9875CF94F0327 /* MyDoubleHandleCircularSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DA1536E1E6F9C8152AB79C4CDB6CF8 /* MyDoubleHandleCircularSlider.swift */; };
+		332E5D316480F8679AC26210FED7ECA4 /* Pods-NewToViper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67DB03DF7C8B2845E9D52E20BA8EC5A7 /* Pods-NewToViper-dummy.m */; };
+		3C5794F037CBEC01CCEA4529AEFAB32A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		4A71BEBDC9DE4AE23789EF896DFDE616 /* DispatchQueueHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004FAAAAA22AAAD7110F45194611D5A2 /* DispatchQueueHelper.swift */; };
+		4B9075A9A068B012EAE1883869C34BB0 /* SainiString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4F0CAF6650D434D4BC91870C3729F2 /* SainiString.swift */; };
+		56B2078F614292CB22F65D2AACCB7996 /* SainiShimmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6546619B0E6245D1F2F2F6A2B725CBDC /* SainiShimmer.swift */; };
+		5BC35FA94551CCB2558C85925874D5B3 /* SainiUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B0831834E8C7857DD0B5624F63C0D9 /* SainiUserDefaults.swift */; };
+		5D8E2B1DA5B13C5FA696042771E004A6 /* SainiCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155F94E760E81D4DE6BCCE52B92B62F4 /* SainiCodable.swift */; };
+		653E41180E36853D79FB7F5D67B4125F /* SainiUITapGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC9FADE20FBD8B8B98FECD0358C0CA0 /* SainiUITapGestureRecognizer.swift */; };
+		67D314CD85C7FE49B546377FD1EAE28B /* SainiUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73019E5142D91AC6F9A58475D5F9948 /* SainiUtility.swift */; };
+		6C01FB26F7CFB835F6C445627DCB2173 /* SainiUIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C925FEC224DE29EFFA28E1723A542FF6 /* SainiUIColor.swift */; };
+		7C3DFF6023400849756FE429FDC99964 /* SainiThread.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC51F992DBA7CDD9E44CD2DD659C052 /* SainiThread.swift */; };
+		80427852789646D315E3DB9EEC2F66E7 /* SainiUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE063BD7260953F1D0E0258A1A5D0591 /* SainiUtils-dummy.m */; };
+		8320826E8BB8CB8D0BBC6B9BCA8AC017 /* MyCircularSliderHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEBEA613BD51121D55ACACF5B0FB2BD /* MyCircularSliderHandle.swift */; };
+		8732C01F5AFB7ADF0C74275F0C99FEF0 /* SainiWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4DB27891B75F1F0333D0B22FF22B3B /* SainiWindow.swift */; };
+		8EA4D98C44243A42731D43998C8A747E /* MyDoubleHandleCircularSlider+IB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BEC92E4727C8FEC587A7CD3E4D0322 /* MyDoubleHandleCircularSlider+IB.swift */; };
+		A3084EAC4D4810B7116E36C96EFB6FEF /* SainiData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D375F31B80E9B935781C1C7DB5B3A01 /* SainiData.swift */; };
+		A6E43B1F6A6D03D779AA5DBCA6F15CA6 /* Pods-NewToViper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B17014A412C38886EF66417586108C83 /* Pods-NewToViper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1655A3AE80AE1741CE0125BB246807B /* SainiUITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B413085FCB8E225BDE68E486A288FF /* SainiUITextField.swift */; };
+		BC8BC33F0761EBE75F6C0500223B3E3C /* SainiDouble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6732C04CB8F16EB0780CB208BA54A3 /* SainiDouble.swift */; };
+		BD19024F0E3E083440A130B3BB4059CA /* SainiUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85773AEFBBAD0BA11A332E5FBA446C09 /* SainiUIView.swift */; };
 		BE452153B2B56AB2A2CCA4BF866E2707 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		DDA750BCF7D1BFC63FD816AE3C160172 /* Pods-NewToViperTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 656E2DFFB4D426234C5841841F498DDD /* Pods-NewToViperTests-dummy.m */; };
-		F83A5827EB1A796401399119DF86E2DA /* Pods-NewToViper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F7E562B1BE389A7CFFF7720D6FA32E95 /* Pods-NewToViper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FC92D11D46491469F953BFBA9E0B9A37 /* Pods-NewToViperTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CCEBF2D6079E036C57F6A96250BC7316 /* Pods-NewToViperTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C96936D6E4D3DFEF561B15C2A9929A03 /* SainiCGFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4303A6A5DEE2EA4B47D2317FC188B9F0 /* SainiCGFloat.swift */; };
+		D4860EAD9B96F0A9A9D9F5D25F999940 /* MyGradientCircularSlider+IB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1ABA06E943786768F69D746A8F1157 /* MyGradientCircularSlider+IB.swift */; };
+		DDA750BCF7D1BFC63FD816AE3C160172 /* Pods-NewToViperTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 496403B9FBAA30B0E4A0BD70334E6685 /* Pods-NewToViperTests-dummy.m */; };
+		E079D9CFC35C2409DB551F018EB64644 /* SainiAppContacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE3B4EABF1B4B7A9201A2E838ACE895 /* SainiAppContacts.swift */; };
+		E53D73B89D7DBD57D2B3338728781894 /* MyGradientCircularSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B8CD54FA91CDB3BD9631FEA305C7EF /* MyGradientCircularSlider.swift */; };
+		EAF8F550B551A086EB15FB97F18A3160 /* MyCircularSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05004FB5410095FB17EF37EE2604BD1 /* MyCircularSlider.swift */; };
+		F1E3AE37B379F299B148E4B9FFD197E4 /* SweetAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8654E4DB99C050004803B2678D7720AF /* SweetAlert.swift */; };
+		F35F8DF2A2F24570853B89C12EC98DB4 /* SainiUIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9ACFC7C64FA5F7952923AFF32B9BFB /* SainiUIImageView.swift */; };
+		F8F61C90AC3E89E4988600300B16A72A /* SainiDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540432E13F42D68FD5A3C47E45031CC1 /* SainiDate.swift */; };
+		FC92D11D46491469F953BFBA9E0B9A37 /* Pods-NewToViperTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B46A2F31BCE3BD05B5FF27902256A9D3 /* Pods-NewToViperTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEFA677FE25A203A86E1D3319152A423 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = D600FE1DCD8A81584173561DC3398856 /* Logger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,37 +58,92 @@
 			remoteGlobalIDString = 5FD985AF4888C7CC4750D508306CED4F;
 			remoteInfo = "Pods-NewToViper";
 		};
+		E350A3ECB76ADCB954639F488881D687 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD36453E052079C9775CD395A253E2EF;
+			remoteInfo = SainiUtils;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		004FAAAAA22AAAD7110F45194611D5A2 /* DispatchQueueHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DispatchQueueHelper.swift; path = Source/SysLogger/DispatchQueueHelper.swift; sourceTree = "<group>"; };
+		00B413085FCB8E225BDE68E486A288FF /* SainiUITextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SainiUITextField.swift; path = Source/SainiUITextField.swift; sourceTree = "<group>"; };
+		00E5C83D84A66DE866A0CA9227510CAD /* Pods-NewToViperTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NewToViperTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0536882BEF44226BDFE2C1697F734090 /* Pods-NewToViperTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NewToViperTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0B6732C04CB8F16EB0780CB208BA54A3 /* SainiDouble.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SainiDouble.swift; path = Source/SainiDouble.swift; sourceTree = "<group>"; };
+		0CC51F992DBA7CDD9E44CD2DD659C052 /* SainiThread.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SainiThread.swift; path = Source/SainiThread.swift; sourceTree = "<group>"; };
+		0DF025CF54D586C2B85541E98B559312 /* SainiTableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SainiTableView.swift; path = Source/SainiTableView.swift; sourceTree = "<group>"; };
+		10DA1536E1E6F9C8152AB79C4CDB6CF8 /* MyDoubleHandleCircularSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyDoubleHandleCircularSlider.swift; path = Source/MyCircularSlider/MyDoubleHandleCircularSlider.swift; sourceTree = "<group>"; };
+		155F94E760E81D4DE6BCCE52B92B62F4 /* SainiCodable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SainiCodable.swift; path = Source/SainiCodable.swift; sourceTree = "<group>"; };
+		17BEC92E4727C8FEC587A7CD3E4D0322 /* MyDoubleHandleCircularSlider+IB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MyDoubleHandleCircularSlider+IB.swift"; path = "Source/MyCircularSlider/MyDoubleHandleCircularSlider+IB.swift"; sourceTree = "<group>"; };
+		18B8CD54FA91CDB3BD9631FEA305C7EF /* MyGradientCircularSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyGradientCircularSlider.swift; path = Source/MyCircularSlider/MyGradientCircularSlider.swift; sourceTree = "<group>"; };
+		1AAED14068A564E69A968CB0C8DC12D6 /* MyCircularSlider+IB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MyCircularSlider+IB.swift"; path = "Source/MyCircularSlider/MyCircularSlider+IB.swift"; sourceTree = "<group>"; };
+		1D375F31B80E9B935781C1C7DB5B3A01 /* SainiData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SainiData.swift; path = Source/SainiData.swift; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		42554A74C08771FD4B35F52AAAAB28F8 /* Pods-NewToViperTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NewToViperTests.modulemap"; sourceTree = "<group>"; };
-		5D380F1DCD628694CFA4E945702D918C /* Pods-NewToViperTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NewToViperTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		656E2DFFB4D426234C5841841F498DDD /* Pods-NewToViperTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NewToViperTests-dummy.m"; sourceTree = "<group>"; };
-		8964B9450E1D4828AE47F0F9D76C0B51 /* Pods-NewToViper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NewToViper-dummy.m"; sourceTree = "<group>"; };
-		9060718837B9D91B085EA3B3E5E05040 /* Pods-NewToViperTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NewToViperTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		9379C95062C5E485A4E3A241B281CAA0 /* Pods-NewToViperTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NewToViperTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3289D07E27D9C85D36DFC605D747AA34 /* SainiUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SainiUtils-prefix.pch"; sourceTree = "<group>"; };
+		37D37D11EE2D1C58C1F7740C72E0BF51 /* SainiUtils.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SainiUtils.modulemap; sourceTree = "<group>"; };
+		38072D6ACD3C7E6303AB643499EF1FC1 /* Pods-NewToViper-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NewToViper-acknowledgements.plist"; sourceTree = "<group>"; };
+		3CE3B4EABF1B4B7A9201A2E838ACE895 /* SainiAppContacts.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SainiAppContacts.swift; path = Source/SainiAppContacts.swift; sourceTree = "<group>"; };
+		3E4F0CAF6650D434D4BC91870C3729F2 /* SainiString.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SainiString.swift; path = Source/SainiString.swift; sourceTree = "<group>"; };
+		4303A6A5DEE2EA4B47D2317FC188B9F0 /* SainiCGFloat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SainiCGFloat.swift; path = Source/SainiCGFloat.swift; sourceTree = "<group>"; };
+		496403B9FBAA30B0E4A0BD70334E6685 /* Pods-NewToViperTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NewToViperTests-dummy.m"; sourceTree = "<group>"; };
+		540432E13F42D68FD5A3C47E45031CC1 /* SainiDate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SainiDate.swift; path = Source/SainiDate.swift; sourceTree = "<group>"; };
+		5B77B8CF338AE4A1A27A8E44B73DC198 /* Pods-NewToViper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NewToViper.modulemap"; sourceTree = "<group>"; };
+		5E4DB27891B75F1F0333D0B22FF22B3B /* SainiWindow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SainiWindow.swift; path = Source/SainiWindow.swift; sourceTree = "<group>"; };
+		6546619B0E6245D1F2F2F6A2B725CBDC /* SainiShimmer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SainiShimmer.swift; path = Source/Shimmer/SainiShimmer.swift; sourceTree = "<group>"; };
+		67DB03DF7C8B2845E9D52E20BA8EC5A7 /* Pods-NewToViper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NewToViper-dummy.m"; sourceTree = "<group>"; };
+		6B29750C91F648375B88A657225A3375 /* SainiUtils-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SainiUtils-Info.plist"; sourceTree = "<group>"; };
+		6C669903356B72828F818BE67ABAC935 /* SainiUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SainiUtils.framework; path = SainiUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74E1BF59E82B6CD8D22575CE26046734 /* SainiUIViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SainiUIViewController.swift; path = Source/SainiUIViewController.swift; sourceTree = "<group>"; };
+		7915E44E58D5BB3DF4EC4D2727832E59 /* Pods-NewToViper-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NewToViper-frameworks.sh"; sourceTree = "<group>"; };
+		8173773A6141BF345F7D8F9C384FB6CB /* SainiLocationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SainiLocationManager.swift; path = Source/SainiLocationManager.swift; sourceTree = "<group>"; };
+		85773AEFBBAD0BA11A332E5FBA446C09 /* SainiUIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SainiUIView.swift; path = Source/SainiUIView.swift; sourceTree = "<group>"; };
+		8654E4DB99C050004803B2678D7720AF /* SweetAlert.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SweetAlert.swift; path = Source/SweetAlert.swift; sourceTree = "<group>"; };
+		878B1F653ED58D4ACBECB104A3F23E03 /* Pods-NewToViperTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NewToViperTests.modulemap"; sourceTree = "<group>"; };
+		8B1ABA06E943786768F69D746A8F1157 /* MyGradientCircularSlider+IB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MyGradientCircularSlider+IB.swift"; path = "Source/MyCircularSlider/MyGradientCircularSlider+IB.swift"; sourceTree = "<group>"; };
+		937D4A2F8F7560874FA482E3DE79770D /* SainiUIImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SainiUIImage.swift; path = Source/SainiUIImage.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F068960AFBF99FCF9D54BEAC4B5353C /* Pods-NewToViper-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NewToViper-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A05004FB5410095FB17EF37EE2604BD1 /* MyCircularSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyCircularSlider.swift; path = Source/MyCircularSlider/MyCircularSlider.swift; sourceTree = "<group>"; };
 		A11BC6000C79481AF01DB26D0A3AB70F /* Pods_NewToViperTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NewToViperTests.framework; path = "Pods-NewToViperTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A22AB881F34692FB1D682857C495B2E6 /* Pods-NewToViperTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NewToViperTests.release.xcconfig"; sourceTree = "<group>"; };
-		B4B810D12B529504430F52F24E143CA2 /* Pods-NewToViper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NewToViper-Info.plist"; sourceTree = "<group>"; };
-		BD26342E6BA0F5E392E86049750922C5 /* Pods-NewToViper-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NewToViper-acknowledgements.plist"; sourceTree = "<group>"; };
-		C1DE22CB434FA930ED5EF51CCE2DD3CC /* Pods-NewToViperTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NewToViperTests-Info.plist"; sourceTree = "<group>"; };
-		C3CF1AC6436FCEB5A710E55D4E8A5A33 /* Pods-NewToViper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NewToViper.debug.xcconfig"; sourceTree = "<group>"; };
-		C50317D15086E4500F60CC048998B3ED /* Pods-NewToViper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NewToViper.modulemap"; sourceTree = "<group>"; };
-		CCEBF2D6079E036C57F6A96250BC7316 /* Pods-NewToViperTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NewToViperTests-umbrella.h"; sourceTree = "<group>"; };
+		A383CD41E627D17ABCA14B11EBF59E23 /* Pods-NewToViper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NewToViper-Info.plist"; sourceTree = "<group>"; };
+		A6E7CBBA41C005BBC66647A1AAFEA9C3 /* Pods-NewToViperTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NewToViperTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AFFC709CD18A7774F771E9390D6D16C3 /* SainiUtils.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SainiUtils.xcconfig; sourceTree = "<group>"; };
+		B17014A412C38886EF66417586108C83 /* Pods-NewToViper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NewToViper-umbrella.h"; sourceTree = "<group>"; };
+		B1B0831834E8C7857DD0B5624F63C0D9 /* SainiUserDefaults.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SainiUserDefaults.swift; path = Source/SainiUserDefaults.swift; sourceTree = "<group>"; };
+		B46A2F31BCE3BD05B5FF27902256A9D3 /* Pods-NewToViperTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NewToViperTests-umbrella.h"; sourceTree = "<group>"; };
+		B73019E5142D91AC6F9A58475D5F9948 /* SainiUtility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SainiUtility.swift; path = Source/SainiUtility.swift; sourceTree = "<group>"; };
+		C29E024125A34E574025AA08FB4970D0 /* Pods-NewToViperTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NewToViperTests-Info.plist"; sourceTree = "<group>"; };
+		C925FEC224DE29EFFA28E1723A542FF6 /* SainiUIColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SainiUIColor.swift; path = Source/SainiUIColor.swift; sourceTree = "<group>"; };
+		CE063BD7260953F1D0E0258A1A5D0591 /* SainiUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SainiUtils-dummy.m"; sourceTree = "<group>"; };
+		D600FE1DCD8A81584173561DC3398856 /* Logger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = Source/SysLogger/Logger.swift; sourceTree = "<group>"; };
+		DBEBEA613BD51121D55ACACF5B0FB2BD /* MyCircularSliderHandle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyCircularSliderHandle.swift; path = Source/MyCircularSlider/MyCircularSliderHandle.swift; sourceTree = "<group>"; };
+		DD9ACFC7C64FA5F7952923AFF32B9BFB /* SainiUIImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SainiUIImageView.swift; path = Source/SainiUIImageView.swift; sourceTree = "<group>"; };
+		DDC9FADE20FBD8B8B98FECD0358C0CA0 /* SainiUITapGestureRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SainiUITapGestureRecognizer.swift; path = Source/SainiUITapGestureRecognizer.swift; sourceTree = "<group>"; };
+		E538025EE389EC64245CA35D53114104 /* Pods-NewToViper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NewToViper.release.xcconfig"; sourceTree = "<group>"; };
 		EB583C9CE79E68D4FC1F2DA885291438 /* Pods_NewToViper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NewToViper.framework; path = "Pods-NewToViper.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F7E562B1BE389A7CFFF7720D6FA32E95 /* Pods-NewToViper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NewToViper-umbrella.h"; sourceTree = "<group>"; };
-		FA71CE3BFE46F2A9D353300EF8A33666 /* Pods-NewToViper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NewToViper.release.xcconfig"; sourceTree = "<group>"; };
+		F51357B0835682A232E559678EF7DF2C /* Pods-NewToViper-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NewToViper-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F9DAD9BCFA82AC3277599322C2C7027A /* FloatRatingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FloatRatingView.swift; path = Source/FloatRatingView.swift; sourceTree = "<group>"; };
+		FCFC00D5064F8D5BD62BEE37DB5394CA /* SainiUtils-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SainiUtils-umbrella.h"; sourceTree = "<group>"; };
+		FF72C8558F2B951F0DDBB70830F18C7D /* Pods-NewToViperTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NewToViperTests.release.xcconfig"; sourceTree = "<group>"; };
+		FF9B6ED8968F6C6C0FF93581C3997811 /* Pods-NewToViper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NewToViper.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C18ED5599FB2E69F61C43F518B6CA0E5 /* Frameworks */ = {
+		3C57F2E07D5BFFE35B3385C659E6B3B7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6546916460E071309F5E928A8D7F48C1 /* Foundation.framework in Frameworks */,
+				3C5794F037CBEC01CCEA4529AEFAB32A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		787E33D0DE4BEEBBE280D7F1B15E064F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AD8398CBFB73123FFD05F48A02B7FF1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,38 +158,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		819166C2C8A66D544E0FE750C39DA8F1 /* Targets Support Files */ = {
+		08A5200E46ED975E2992662B87EC6BDF /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F411C079D76DEC89407110A71DBDE52F /* Pods-NewToViper */,
-				A242A1CBA56E1448934FD8AC5D7041FC /* Pods-NewToViperTests */,
+				37D37D11EE2D1C58C1F7740C72E0BF51 /* SainiUtils.modulemap */,
+				AFFC709CD18A7774F771E9390D6D16C3 /* SainiUtils.xcconfig */,
+				CE063BD7260953F1D0E0258A1A5D0591 /* SainiUtils-dummy.m */,
+				6B29750C91F648375B88A657225A3375 /* SainiUtils-Info.plist */,
+				3289D07E27D9C85D36DFC605D747AA34 /* SainiUtils-prefix.pch */,
+				FCFC00D5064F8D5BD62BEE37DB5394CA /* SainiUtils-umbrella.h */,
 			);
-			name = "Targets Support Files";
+			name = "Support Files";
+			path = "../Target Support Files/SainiUtils";
 			sourceTree = "<group>";
 		};
-		A242A1CBA56E1448934FD8AC5D7041FC /* Pods-NewToViperTests */ = {
+		14FAAB04047A40C0FECC57899D562B09 /* Pods-NewToViperTests */ = {
 			isa = PBXGroup;
 			children = (
-				42554A74C08771FD4B35F52AAAAB28F8 /* Pods-NewToViperTests.modulemap */,
-				5D380F1DCD628694CFA4E945702D918C /* Pods-NewToViperTests-acknowledgements.markdown */,
-				9060718837B9D91B085EA3B3E5E05040 /* Pods-NewToViperTests-acknowledgements.plist */,
-				656E2DFFB4D426234C5841841F498DDD /* Pods-NewToViperTests-dummy.m */,
-				C1DE22CB434FA930ED5EF51CCE2DD3CC /* Pods-NewToViperTests-Info.plist */,
-				CCEBF2D6079E036C57F6A96250BC7316 /* Pods-NewToViperTests-umbrella.h */,
-				9379C95062C5E485A4E3A241B281CAA0 /* Pods-NewToViperTests.debug.xcconfig */,
-				A22AB881F34692FB1D682857C495B2E6 /* Pods-NewToViperTests.release.xcconfig */,
+				878B1F653ED58D4ACBECB104A3F23E03 /* Pods-NewToViperTests.modulemap */,
+				0536882BEF44226BDFE2C1697F734090 /* Pods-NewToViperTests-acknowledgements.markdown */,
+				00E5C83D84A66DE866A0CA9227510CAD /* Pods-NewToViperTests-acknowledgements.plist */,
+				496403B9FBAA30B0E4A0BD70334E6685 /* Pods-NewToViperTests-dummy.m */,
+				C29E024125A34E574025AA08FB4970D0 /* Pods-NewToViperTests-Info.plist */,
+				B46A2F31BCE3BD05B5FF27902256A9D3 /* Pods-NewToViperTests-umbrella.h */,
+				A6E7CBBA41C005BBC66647A1AAFEA9C3 /* Pods-NewToViperTests.debug.xcconfig */,
+				FF72C8558F2B951F0DDBB70830F18C7D /* Pods-NewToViperTests.release.xcconfig */,
 			);
 			name = "Pods-NewToViperTests";
 			path = "Target Support Files/Pods-NewToViperTests";
 			sourceTree = "<group>";
 		};
-		AFA357DF36C9A7DAE14F78155B09246A /* Products */ = {
+		1911CB866D32AD8A83BF744D70C4EBC5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				EB583C9CE79E68D4FC1F2DA885291438 /* Pods_NewToViper.framework */,
 				A11BC6000C79481AF01DB26D0A3AB70F /* Pods_NewToViperTests.framework */,
+				6C669903356B72828F818BE67ABAC935 /* SainiUtils.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		3A402E3D9EC531B72D629ECBD68F5947 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB83A7D3432C9968D5A95F41401CB06A /* Pods-NewToViper */,
+				14FAAB04047A40C0FECC57899D562B09 /* Pods-NewToViperTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		69C65EC4244AEEA4E4DE1EC07748DE55 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D87851C6192EE7B6ECB6C4E1CE8C95FC /* SainiUtils */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -115,8 +228,9 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				AFA357DF36C9A7DAE14F78155B09246A /* Products */,
-				819166C2C8A66D544E0FE750C39DA8F1 /* Targets Support Files */,
+				69C65EC4244AEEA4E4DE1EC07748DE55 /* Pods */,
+				1911CB866D32AD8A83BF744D70C4EBC5 /* Products */,
+				3A402E3D9EC531B72D629ECBD68F5947 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,17 +242,59 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F411C079D76DEC89407110A71DBDE52F /* Pods-NewToViper */ = {
+		D87851C6192EE7B6ECB6C4E1CE8C95FC /* SainiUtils */ = {
 			isa = PBXGroup;
 			children = (
-				C50317D15086E4500F60CC048998B3ED /* Pods-NewToViper.modulemap */,
-				9F068960AFBF99FCF9D54BEAC4B5353C /* Pods-NewToViper-acknowledgements.markdown */,
-				BD26342E6BA0F5E392E86049750922C5 /* Pods-NewToViper-acknowledgements.plist */,
-				8964B9450E1D4828AE47F0F9D76C0B51 /* Pods-NewToViper-dummy.m */,
-				B4B810D12B529504430F52F24E143CA2 /* Pods-NewToViper-Info.plist */,
-				F7E562B1BE389A7CFFF7720D6FA32E95 /* Pods-NewToViper-umbrella.h */,
-				C3CF1AC6436FCEB5A710E55D4E8A5A33 /* Pods-NewToViper.debug.xcconfig */,
-				FA71CE3BFE46F2A9D353300EF8A33666 /* Pods-NewToViper.release.xcconfig */,
+				004FAAAAA22AAAD7110F45194611D5A2 /* DispatchQueueHelper.swift */,
+				F9DAD9BCFA82AC3277599322C2C7027A /* FloatRatingView.swift */,
+				D600FE1DCD8A81584173561DC3398856 /* Logger.swift */,
+				A05004FB5410095FB17EF37EE2604BD1 /* MyCircularSlider.swift */,
+				1AAED14068A564E69A968CB0C8DC12D6 /* MyCircularSlider+IB.swift */,
+				DBEBEA613BD51121D55ACACF5B0FB2BD /* MyCircularSliderHandle.swift */,
+				10DA1536E1E6F9C8152AB79C4CDB6CF8 /* MyDoubleHandleCircularSlider.swift */,
+				17BEC92E4727C8FEC587A7CD3E4D0322 /* MyDoubleHandleCircularSlider+IB.swift */,
+				18B8CD54FA91CDB3BD9631FEA305C7EF /* MyGradientCircularSlider.swift */,
+				8B1ABA06E943786768F69D746A8F1157 /* MyGradientCircularSlider+IB.swift */,
+				3CE3B4EABF1B4B7A9201A2E838ACE895 /* SainiAppContacts.swift */,
+				4303A6A5DEE2EA4B47D2317FC188B9F0 /* SainiCGFloat.swift */,
+				155F94E760E81D4DE6BCCE52B92B62F4 /* SainiCodable.swift */,
+				1D375F31B80E9B935781C1C7DB5B3A01 /* SainiData.swift */,
+				540432E13F42D68FD5A3C47E45031CC1 /* SainiDate.swift */,
+				0B6732C04CB8F16EB0780CB208BA54A3 /* SainiDouble.swift */,
+				8173773A6141BF345F7D8F9C384FB6CB /* SainiLocationManager.swift */,
+				6546619B0E6245D1F2F2F6A2B725CBDC /* SainiShimmer.swift */,
+				3E4F0CAF6650D434D4BC91870C3729F2 /* SainiString.swift */,
+				0DF025CF54D586C2B85541E98B559312 /* SainiTableView.swift */,
+				0CC51F992DBA7CDD9E44CD2DD659C052 /* SainiThread.swift */,
+				C925FEC224DE29EFFA28E1723A542FF6 /* SainiUIColor.swift */,
+				937D4A2F8F7560874FA482E3DE79770D /* SainiUIImage.swift */,
+				DD9ACFC7C64FA5F7952923AFF32B9BFB /* SainiUIImageView.swift */,
+				DDC9FADE20FBD8B8B98FECD0358C0CA0 /* SainiUITapGestureRecognizer.swift */,
+				00B413085FCB8E225BDE68E486A288FF /* SainiUITextField.swift */,
+				85773AEFBBAD0BA11A332E5FBA446C09 /* SainiUIView.swift */,
+				74E1BF59E82B6CD8D22575CE26046734 /* SainiUIViewController.swift */,
+				B1B0831834E8C7857DD0B5624F63C0D9 /* SainiUserDefaults.swift */,
+				B73019E5142D91AC6F9A58475D5F9948 /* SainiUtility.swift */,
+				5E4DB27891B75F1F0333D0B22FF22B3B /* SainiWindow.swift */,
+				8654E4DB99C050004803B2678D7720AF /* SweetAlert.swift */,
+				08A5200E46ED975E2992662B87EC6BDF /* Support Files */,
+			);
+			name = SainiUtils;
+			path = SainiUtils;
+			sourceTree = "<group>";
+		};
+		DB83A7D3432C9968D5A95F41401CB06A /* Pods-NewToViper */ = {
+			isa = PBXGroup;
+			children = (
+				5B77B8CF338AE4A1A27A8E44B73DC198 /* Pods-NewToViper.modulemap */,
+				F51357B0835682A232E559678EF7DF2C /* Pods-NewToViper-acknowledgements.markdown */,
+				38072D6ACD3C7E6303AB643499EF1FC1 /* Pods-NewToViper-acknowledgements.plist */,
+				67DB03DF7C8B2845E9D52E20BA8EC5A7 /* Pods-NewToViper-dummy.m */,
+				7915E44E58D5BB3DF4EC4D2727832E59 /* Pods-NewToViper-frameworks.sh */,
+				A383CD41E627D17ABCA14B11EBF59E23 /* Pods-NewToViper-Info.plist */,
+				B17014A412C38886EF66417586108C83 /* Pods-NewToViper-umbrella.h */,
+				FF9B6ED8968F6C6C0FF93581C3997811 /* Pods-NewToViper.debug.xcconfig */,
+				E538025EE389EC64245CA35D53114104 /* Pods-NewToViper.release.xcconfig */,
 			);
 			name = "Pods-NewToViper";
 			path = "Target Support Files/Pods-NewToViper";
@@ -147,11 +303,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		25D898D1C826ACDBA52DC4FF5CFEE2E8 /* Headers */ = {
+		5540A715698EFFA418541C7C95E1B14D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F83A5827EB1A796401399119DF86E2DA /* Pods-NewToViper-umbrella.h in Headers */,
+				A6E43B1F6A6D03D779AA5DBCA6F15CA6 /* Pods-NewToViper-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,6 +316,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC92D11D46491469F953BFBA9E0B9A37 /* Pods-NewToViperTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9C72D2249E0F2D504BDF0224882CD7B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EC98FC5DD9923C52F34E779BCAE43C4 /* SainiUtils-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,20 +351,39 @@
 		};
 		5FD985AF4888C7CC4750D508306CED4F /* Pods-NewToViper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 73BEBE477C56206101C020A3FE8A9F31 /* Build configuration list for PBXNativeTarget "Pods-NewToViper" */;
+			buildConfigurationList = A9EAA44D4FC21CF71E77B80CC90FF118 /* Build configuration list for PBXNativeTarget "Pods-NewToViper" */;
 			buildPhases = (
-				25D898D1C826ACDBA52DC4FF5CFEE2E8 /* Headers */,
-				5D2FDAE6CD8A4DD9A4C960F3FA1E97E1 /* Sources */,
-				C18ED5599FB2E69F61C43F518B6CA0E5 /* Frameworks */,
-				3170FF461BD07CBD3925607C8E94B8E5 /* Resources */,
+				5540A715698EFFA418541C7C95E1B14D /* Headers */,
+				1A8CB8D60E160268A9C2B72ABC8098B5 /* Sources */,
+				3C57F2E07D5BFFE35B3385C659E6B3B7 /* Frameworks */,
+				F54EB501D45588AAED0AAFC0FF536E01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31CB13DFF1E13B7A45A072C33E28F0E0 /* PBXTargetDependency */,
+			);
+			name = "Pods-NewToViper";
+			productName = "Pods-NewToViper";
+			productReference = EB583C9CE79E68D4FC1F2DA885291438 /* Pods_NewToViper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CD36453E052079C9775CD395A253E2EF /* SainiUtils */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22FDB0FE4F37BF51FD4DEC1728A209A7 /* Build configuration list for PBXNativeTarget "SainiUtils" */;
+			buildPhases = (
+				A9C72D2249E0F2D504BDF0224882CD7B /* Headers */,
+				5B9924C0DC2A5517CB83A5448454DA81 /* Sources */,
+				787E33D0DE4BEEBBE280D7F1B15E064F /* Frameworks */,
+				CBF3CC2F359F0F5715D2062CFCE94272 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-NewToViper";
-			productName = "Pods-NewToViper";
-			productReference = EB583C9CE79E68D4FC1F2DA885291438 /* Pods_NewToViper.framework */;
+			name = SainiUtils;
+			productName = SainiUtils;
+			productReference = 6C669903356B72828F818BE67ABAC935 /* SainiUtils.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -221,25 +404,33 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = AFA357DF36C9A7DAE14F78155B09246A /* Products */;
+			productRefGroup = 1911CB866D32AD8A83BF744D70C4EBC5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				5FD985AF4888C7CC4750D508306CED4F /* Pods-NewToViper */,
 				24D9EB90EB87F556292328C4DAAC36A9 /* Pods-NewToViperTests */,
+				CD36453E052079C9775CD395A253E2EF /* SainiUtils */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3170FF461BD07CBD3925607C8E94B8E5 /* Resources */ = {
+		AE1F813BFC6D74DCFB80363FE54BFC26 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AE1F813BFC6D74DCFB80363FE54BFC26 /* Resources */ = {
+		CBF3CC2F359F0F5715D2062CFCE94272 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F54EB501D45588AAED0AAFC0FF536E01 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -249,6 +440,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1A8CB8D60E160268A9C2B72ABC8098B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				332E5D316480F8679AC26210FED7ECA4 /* Pods-NewToViper-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		56E880C5FB4EAD0DDC71B6B2B4BB290B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -257,17 +456,55 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5D2FDAE6CD8A4DD9A4C960F3FA1E97E1 /* Sources */ = {
+		5B9924C0DC2A5517CB83A5448454DA81 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A53C4BF7C1A320A133E102A93464FAA /* Pods-NewToViper-dummy.m in Sources */,
+				4A71BEBDC9DE4AE23789EF896DFDE616 /* DispatchQueueHelper.swift in Sources */,
+				283EEC177AF0A515EE52EDCAF2574E6F /* FloatRatingView.swift in Sources */,
+				FEFA677FE25A203A86E1D3319152A423 /* Logger.swift in Sources */,
+				113E6A93D813D157FF4EC19E7AB7DF14 /* MyCircularSlider+IB.swift in Sources */,
+				EAF8F550B551A086EB15FB97F18A3160 /* MyCircularSlider.swift in Sources */,
+				8320826E8BB8CB8D0BBC6B9BCA8AC017 /* MyCircularSliderHandle.swift in Sources */,
+				8EA4D98C44243A42731D43998C8A747E /* MyDoubleHandleCircularSlider+IB.swift in Sources */,
+				3099C198CA71A798A5A9875CF94F0327 /* MyDoubleHandleCircularSlider.swift in Sources */,
+				D4860EAD9B96F0A9A9D9F5D25F999940 /* MyGradientCircularSlider+IB.swift in Sources */,
+				E53D73B89D7DBD57D2B3338728781894 /* MyGradientCircularSlider.swift in Sources */,
+				E079D9CFC35C2409DB551F018EB64644 /* SainiAppContacts.swift in Sources */,
+				C96936D6E4D3DFEF561B15C2A9929A03 /* SainiCGFloat.swift in Sources */,
+				5D8E2B1DA5B13C5FA696042771E004A6 /* SainiCodable.swift in Sources */,
+				A3084EAC4D4810B7116E36C96EFB6FEF /* SainiData.swift in Sources */,
+				F8F61C90AC3E89E4988600300B16A72A /* SainiDate.swift in Sources */,
+				BC8BC33F0761EBE75F6C0500223B3E3C /* SainiDouble.swift in Sources */,
+				2A2E44C8C62A1B4D8100F460F0015B86 /* SainiLocationManager.swift in Sources */,
+				56B2078F614292CB22F65D2AACCB7996 /* SainiShimmer.swift in Sources */,
+				4B9075A9A068B012EAE1883869C34BB0 /* SainiString.swift in Sources */,
+				24759E9C656E30DA3F83C8C791A89A65 /* SainiTableView.swift in Sources */,
+				7C3DFF6023400849756FE429FDC99964 /* SainiThread.swift in Sources */,
+				6C01FB26F7CFB835F6C445627DCB2173 /* SainiUIColor.swift in Sources */,
+				0CF2F294930079B8EDD41D266F740AB3 /* SainiUIImage.swift in Sources */,
+				F35F8DF2A2F24570853B89C12EC98DB4 /* SainiUIImageView.swift in Sources */,
+				653E41180E36853D79FB7F5D67B4125F /* SainiUITapGestureRecognizer.swift in Sources */,
+				B1655A3AE80AE1741CE0125BB246807B /* SainiUITextField.swift in Sources */,
+				BD19024F0E3E083440A130B3BB4059CA /* SainiUIView.swift in Sources */,
+				18462EBBBB6B089C4D8AE245A007E600 /* SainiUIViewController.swift in Sources */,
+				5BC35FA94551CCB2558C85925874D5B3 /* SainiUserDefaults.swift in Sources */,
+				67D314CD85C7FE49B546377FD1EAE28B /* SainiUtility.swift in Sources */,
+				80427852789646D315E3DB9EEC2F66E7 /* SainiUtils-dummy.m in Sources */,
+				8732C01F5AFB7ADF0C74275F0C99FEF0 /* SainiWindow.swift in Sources */,
+				F1E3AE37B379F299B148E4B9FFD197E4 /* SweetAlert.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		31CB13DFF1E13B7A45A072C33E28F0E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SainiUtils;
+			target = CD36453E052079C9775CD395A253E2EF /* SainiUtils */;
+			targetProxy = E350A3ECB76ADCB954639F488881D687 /* PBXContainerItemProxy */;
+		};
 		FAB1E7879CAD64E91508E6DFDFD4D02E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-NewToViper";
@@ -279,7 +516,7 @@
 /* Begin XCBuildConfiguration section */
 		158484493740C5ACAA2B0D80E16A7549 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A22AB881F34692FB1D682857C495B2E6 /* Pods-NewToViperTests.release.xcconfig */;
+			baseConfigurationReference = FF72C8558F2B951F0DDBB70830F18C7D /* Pods-NewToViperTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -316,48 +553,9 @@
 			};
 			name = Release;
 		};
-		18CEE51E34CDA342F600BAC643032FA1 /* Release */ = {
+		3AD5299933B752AB9EBB2D9DC54C48BD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FA71CE3BFE46F2A9D353300EF8A33666 /* Pods-NewToViper.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-NewToViper/Pods-NewToViper-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NewToViper/Pods-NewToViper.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		5C0058FCA70924479F160EA0EB870B9C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C3CF1AC6436FCEB5A710E55D4E8A5A33 /* Pods-NewToViper.debug.xcconfig */;
+			baseConfigurationReference = FF9B6ED8968F6C6C0FF93581C3997811 /* Pods-NewToViper.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -392,6 +590,43 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		8F53A2E29688482E1E794D92F3FFF6D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFFC709CD18A7774F771E9390D6D16C3 /* SainiUtils.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SainiUtils/SainiUtils-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SainiUtils/SainiUtils-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SainiUtils/SainiUtils.modulemap";
+				PRODUCT_MODULE_NAME = SainiUtils;
+				PRODUCT_NAME = SainiUtils;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -457,9 +692,45 @@
 			};
 			name = Debug;
 		};
+		B1ECF7DCF23D11A7DC05CD0E7CD0AD63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFFC709CD18A7774F771E9390D6D16C3 /* SainiUtils.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SainiUtils/SainiUtils-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SainiUtils/SainiUtils-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SainiUtils/SainiUtils.modulemap";
+				PRODUCT_MODULE_NAME = SainiUtils;
+				PRODUCT_NAME = SainiUtils;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		DFDFF4C6470FA8C929A04FE4FE810350 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9379C95062C5E485A4E3A241B281CAA0 /* Pods-NewToViperTests.debug.xcconfig */;
+			baseConfigurationReference = A6E7CBBA41C005BBC66647A1AAFEA9C3 /* Pods-NewToViperTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -555,6 +826,45 @@
 			};
 			name = Release;
 		};
+		FF09AF4EB5B3B649DDC207182B6ED7E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E538025EE389EC64245CA35D53114104 /* Pods-NewToViper.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NewToViper/Pods-NewToViper-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NewToViper/Pods-NewToViper.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -563,6 +873,15 @@
 			buildConfigurations = (
 				DFDFF4C6470FA8C929A04FE4FE810350 /* Debug */,
 				158484493740C5ACAA2B0D80E16A7549 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22FDB0FE4F37BF51FD4DEC1728A209A7 /* Build configuration list for PBXNativeTarget "SainiUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1ECF7DCF23D11A7DC05CD0E7CD0AD63 /* Debug */,
+				8F53A2E29688482E1E794D92F3FFF6D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -576,11 +895,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		73BEBE477C56206101C020A3FE8A9F31 /* Build configuration list for PBXNativeTarget "Pods-NewToViper" */ = {
+		A9EAA44D4FC21CF71E77B80CC90FF118 /* Build configuration list for PBXNativeTarget "Pods-NewToViper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5C0058FCA70924479F160EA0EB870B9C /* Debug */,
-				18CEE51E34CDA342F600BAC643032FA1 /* Release */,
+				3AD5299933B752AB9EBB2D9DC54C48BD /* Debug */,
+				FF09AF4EB5B3B649DDC207182B6ED7E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

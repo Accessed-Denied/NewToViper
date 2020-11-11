@@ -6,6 +6,7 @@ target 'NewToViper' do
   use_frameworks!
 
   # Pods for NewToViper
+  pod 'SainiUtils'
 
   target 'NewToViperTests' do
     inherit! :search_paths

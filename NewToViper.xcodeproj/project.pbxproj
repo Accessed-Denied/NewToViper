@@ -11,11 +11,11 @@
 		ED931CAE11CE2AC6CB220E72 /* Pods_NewToViperTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E64B500E5507E14DEC583241 /* Pods_NewToViperTests.framework */; };
 		FAFAE2F6255715B900DF084D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFAE2F5255715B900DF084D /* AppDelegate.swift */; };
 		FAFAE2F8255715B900DF084D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFAE2F7255715B900DF084D /* SceneDelegate.swift */; };
-		FAFAE2FA255715B900DF084D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFAE2F9255715B900DF084D /* ViewController.swift */; };
 		FAFAE2FD255715B900DF084D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAFAE2FB255715B900DF084D /* Main.storyboard */; };
 		FAFAE2FF255715BB00DF084D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAFAE2FE255715BB00DF084D /* Assets.xcassets */; };
 		FAFAE302255715BB00DF084D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAFAE300255715BB00DF084D /* LaunchScreen.storyboard */; };
 		FAFAE30D255715BB00DF084D /* NewToViperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFAE30C255715BB00DF084D /* NewToViperTests.swift */; };
+		FAFAE324255C64DB00DF084D /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFAE323255C64DB00DF084D /* LoginVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,6 @@
 		FAFAE2F2255715B900DF084D /* NewToViper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewToViper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAFAE2F5255715B900DF084D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAFAE2F7255715B900DF084D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FAFAE2F9255715B900DF084D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FAFAE2FC255715B900DF084D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FAFAE2FE255715BB00DF084D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAFAE301255715BB00DF084D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -46,6 +45,7 @@
 		FAFAE308255715BB00DF084D /* NewToViperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewToViperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAFAE30C255715BB00DF084D /* NewToViperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewToViperTests.swift; sourceTree = "<group>"; };
 		FAFAE30E255715BB00DF084D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAFAE323255C64DB00DF084D /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +76,6 @@
 				E64D890A59BBE13143251C02 /* Pods-NewToViperTests.debug.xcconfig */,
 				4E7F7F8CCD49EBFC5F210515 /* Pods-NewToViperTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -112,9 +111,9 @@
 		FAFAE2F4255715B900DF084D /* NewToViper */ = {
 			isa = PBXGroup;
 			children = (
+				FAFAE322255C64CA00DF084D /* View */,
 				FAFAE2F5255715B900DF084D /* AppDelegate.swift */,
 				FAFAE2F7255715B900DF084D /* SceneDelegate.swift */,
-				FAFAE2F9255715B900DF084D /* ViewController.swift */,
 				FAFAE2FB255715B900DF084D /* Main.storyboard */,
 				FAFAE2FE255715BB00DF084D /* Assets.xcassets */,
 				FAFAE300255715BB00DF084D /* LaunchScreen.storyboard */,
@@ -130,6 +129,14 @@
 				FAFAE30E255715BB00DF084D /* Info.plist */,
 			);
 			path = NewToViperTests;
+			sourceTree = "<group>";
+		};
+		FAFAE322255C64CA00DF084D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FAFAE323255C64DB00DF084D /* LoginVC.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,9 +289,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAFAE2FA255715B900DF084D /* ViewController.swift in Sources */,
 				FAFAE2F6255715B900DF084D /* AppDelegate.swift in Sources */,
 				FAFAE2F8255715B900DF084D /* SceneDelegate.swift in Sources */,
+				FAFAE324255C64DB00DF084D /* LoginVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

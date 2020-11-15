@@ -15,38 +15,153 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Jv7-P4-Gwd">
-                                <rect key="frame" x="40" y="200" width="240" height="120"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="Jv7-P4-Gwd">
+                                <rect key="frame" x="40" y="104" width="240" height="360"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zd7-2o-vrk">
-                                        <rect key="frame" x="0.0" y="0.0" width="240" height="50"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="40"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WELCOME" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KnU-pX-ui4">
+                                                <rect key="frame" x="27.5" y="0.0" width="185.5" height="46.5"/>
+                                                <fontDescription key="fontDescription" name="TrebuchetMS-Bold" family="Trebuchet MS" pointSize="40"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="50" id="Ylt-G6-uYb"/>
+                                            <constraint firstItem="KnU-pX-ui4" firstAttribute="centerX" secondItem="zd7-2o-vrk" secondAttribute="centerX" id="759-tW-GXz"/>
+                                            <constraint firstAttribute="height" constant="40" id="Ylt-G6-uYb"/>
+                                            <constraint firstItem="KnU-pX-ui4" firstAttribute="top" secondItem="zd7-2o-vrk" secondAttribute="top" id="qAY-g3-PQe"/>
                                         </constraints>
                                     </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d0z-mQ-l9P">
-                                        <rect key="frame" x="0.0" y="70" width="240" height="50"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="50" id="wqZ-sn-8dO"/>
-                                        </constraints>
-                                    </view>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="LZ2-Yx-vkH">
+                                        <rect key="frame" x="0.0" y="90" width="240" height="270"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OkJ-Rw-UhJ">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="50"/>
+                                                <subviews>
+                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Email Address" placeholder="Email Address" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="82W-nf-kbv">
+                                                        <rect key="frame" x="0.0" y="0.0" width="240" height="49"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="17"/>
+                                                        <textInputTraits key="textInputTraits"/>
+                                                    </textField>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gkX-V5-zm6">
+                                                        <rect key="frame" x="0.0" y="49" width="240" height="1"/>
+                                                        <color key="backgroundColor" red="0.89803921568627454" green="0.41960784313725491" blue="0.50196078431372548" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="1" id="d0s-oN-fV4"/>
+                                                        </constraints>
+                                                    </view>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="0AO-Rf-df1"/>
+                                                    <constraint firstItem="gkX-V5-zm6" firstAttribute="leading" secondItem="OkJ-Rw-UhJ" secondAttribute="leading" id="3qL-s5-7Vw"/>
+                                                    <constraint firstAttribute="bottom" secondItem="gkX-V5-zm6" secondAttribute="bottom" id="5Uc-7X-op1"/>
+                                                    <constraint firstItem="gkX-V5-zm6" firstAttribute="top" secondItem="82W-nf-kbv" secondAttribute="bottom" id="MAc-bE-cHs"/>
+                                                    <constraint firstItem="82W-nf-kbv" firstAttribute="leading" secondItem="OkJ-Rw-UhJ" secondAttribute="leading" id="Tsq-iK-1AH"/>
+                                                    <constraint firstAttribute="trailing" secondItem="gkX-V5-zm6" secondAttribute="trailing" id="XzZ-sM-gNf"/>
+                                                    <constraint firstAttribute="trailing" secondItem="82W-nf-kbv" secondAttribute="trailing" id="YVG-v5-Q4m"/>
+                                                    <constraint firstItem="82W-nf-kbv" firstAttribute="top" secondItem="OkJ-Rw-UhJ" secondAttribute="top" id="l9q-Ka-5cP"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qHv-lp-AOW">
+                                                <rect key="frame" x="0.0" y="80" width="240" height="50"/>
+                                                <subviews>
+                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="123456" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="T53-nX-LkF">
+                                                        <rect key="frame" x="0.0" y="0.0" width="240" height="49"/>
+                                                        <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="17"/>
+                                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                                    </textField>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kxh-Rk-AB6">
+                                                        <rect key="frame" x="0.0" y="49" width="240" height="1"/>
+                                                        <color key="backgroundColor" red="0.8980392157" green="0.41960784309999999" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="1" id="bKb-qJ-CYZ"/>
+                                                        </constraints>
+                                                    </view>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstItem="T53-nX-LkF" firstAttribute="leading" secondItem="qHv-lp-AOW" secondAttribute="leading" id="1Pr-9T-9aC"/>
+                                                    <constraint firstItem="kxh-Rk-AB6" firstAttribute="leading" secondItem="qHv-lp-AOW" secondAttribute="leading" id="Dc7-4z-fJI"/>
+                                                    <constraint firstItem="T53-nX-LkF" firstAttribute="top" secondItem="qHv-lp-AOW" secondAttribute="top" id="OGa-FV-Weh"/>
+                                                    <constraint firstAttribute="trailing" secondItem="kxh-Rk-AB6" secondAttribute="trailing" id="QND-vS-1vM"/>
+                                                    <constraint firstAttribute="bottom" secondItem="kxh-Rk-AB6" secondAttribute="bottom" id="dEd-6G-flF"/>
+                                                    <constraint firstItem="kxh-Rk-AB6" firstAttribute="top" secondItem="T53-nX-LkF" secondAttribute="bottom" id="ezh-ys-Es2"/>
+                                                    <constraint firstAttribute="trailing" secondItem="T53-nX-LkF" secondAttribute="trailing" id="jSk-UR-yZX"/>
+                                                    <constraint firstAttribute="height" constant="50" id="xtA-jC-Qou"/>
+                                                </constraints>
+                                            </view>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rR2-5x-30a">
+                                                <rect key="frame" x="0.0" y="160" width="240" height="50"/>
+                                                <color key="backgroundColor" red="0.12941176470588234" green="0.14117647058823529" blue="0.17254901960784313" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="sDh-dG-3Lj"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="TrebuchetMS-Bold" family="Trebuchet MS" pointSize="17"/>
+                                                <state key="normal" title="Login">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uSw-Zo-gSf">
+                                                <rect key="frame" x="0.0" y="240" width="240" height="30"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QFf-SN-wfv">
+                                                        <rect key="frame" x="0.0" y="0.0" width="119.5" height="30"/>
+                                                        <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="14"/>
+                                                        <state key="normal" title="Password">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ApV-IC-vK0">
+                                                        <rect key="frame" x="120.5" y="0.0" width="119.5" height="30"/>
+                                                        <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="14"/>
+                                                        <state key="normal" title="Register">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                    </button>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TLe-Qt-2qQ">
+                                                        <rect key="frame" x="119.5" y="0.0" width="1" height="30"/>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="1" id="yf6-Fl-MP4"/>
+                                                        </constraints>
+                                                    </view>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="bottom" secondItem="QFf-SN-wfv" secondAttribute="bottom" id="3gX-s0-bNG"/>
+                                                    <constraint firstItem="TLe-Qt-2qQ" firstAttribute="top" secondItem="uSw-Zo-gSf" secondAttribute="top" id="89j-pN-gaj"/>
+                                                    <constraint firstItem="ApV-IC-vK0" firstAttribute="leading" secondItem="TLe-Qt-2qQ" secondAttribute="trailing" id="8gp-5B-28e"/>
+                                                    <constraint firstItem="ApV-IC-vK0" firstAttribute="firstBaseline" secondItem="QFf-SN-wfv" secondAttribute="firstBaseline" id="Mah-Vs-q2f"/>
+                                                    <constraint firstItem="QFf-SN-wfv" firstAttribute="top" secondItem="uSw-Zo-gSf" secondAttribute="top" id="Yev-0C-YGD"/>
+                                                    <constraint firstAttribute="bottom" secondItem="ApV-IC-vK0" secondAttribute="bottom" id="cYz-sj-Blk"/>
+                                                    <constraint firstAttribute="trailing" secondItem="ApV-IC-vK0" secondAttribute="trailing" id="eZI-FT-fIq"/>
+                                                    <constraint firstItem="ApV-IC-vK0" firstAttribute="top" secondItem="uSw-Zo-gSf" secondAttribute="top" id="ern-H0-CN3"/>
+                                                    <constraint firstItem="TLe-Qt-2qQ" firstAttribute="centerX" secondItem="uSw-Zo-gSf" secondAttribute="centerX" id="jU9-CY-SOc"/>
+                                                    <constraint firstItem="QFf-SN-wfv" firstAttribute="leading" secondItem="uSw-Zo-gSf" secondAttribute="leading" id="lmV-p7-Qqc"/>
+                                                    <constraint firstItem="QFf-SN-wfv" firstAttribute="centerY" secondItem="uSw-Zo-gSf" secondAttribute="centerY" id="mWG-vW-ITQ"/>
+                                                    <constraint firstAttribute="height" constant="30" id="n2v-iY-P8G"/>
+                                                    <constraint firstItem="TLe-Qt-2qQ" firstAttribute="leading" secondItem="QFf-SN-wfv" secondAttribute="trailing" id="yL1-mL-XtW"/>
+                                                    <constraint firstAttribute="bottom" secondItem="TLe-Qt-2qQ" secondAttribute="bottom" id="zny-hq-Yvd"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
                                 </subviews>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" red="0.27450980392156865" green="0.29411764705882354" blue="0.3411764705882353" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="Jv7-P4-Gwd" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="200" id="VVd-u6-tAe"/>
                             <constraint firstItem="Jv7-P4-Gwd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="Z3U-4V-G5m"/>
+                            <constraint firstItem="Jv7-P4-Gwd" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="hIU-Sq-vzu"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Jv7-P4-Gwd" secondAttribute="trailing" constant="40" id="oJ6-OU-9Oc"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <connections>
-                        <outlet property="emailView" destination="zd7-2o-vrk" id="NLj-cc-mMM"/>
-                        <outlet property="passwordView" destination="d0z-mQ-l9P" id="eWG-Ku-ynV"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

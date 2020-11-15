@@ -10,16 +10,16 @@ import UIKit
 import SainiUtils
 
 class LoginVC: UIViewController {
-
-    @IBOutlet weak var passwordView: UIView!
-    @IBOutlet weak var emailView: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        configUI()
     }
     
     private func configUI() {
-//        emailView.
+        
     }
+    
 }

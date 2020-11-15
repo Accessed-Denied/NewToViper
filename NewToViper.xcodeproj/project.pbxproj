@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		C2E42C6FFD38532EBE08125E /* Pods_NewToViper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E53F5B0AC5EA2BD2060AE48 /* Pods_NewToViper.framework */; };
 		ED931CAE11CE2AC6CB220E72 /* Pods_NewToViperTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E64B500E5507E14DEC583241 /* Pods_NewToViperTests.framework */; };
+		FA606C4D256171C10066CCB6 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA606C4C256171C10066CCB6 /* SignUpVC.swift */; };
 		FAFAE2F6255715B900DF084D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFAE2F5255715B900DF084D /* AppDelegate.swift */; };
 		FAFAE2FD255715B900DF084D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAFAE2FB255715B900DF084D /* Main.storyboard */; };
 		FAFAE2FF255715BB00DF084D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAFAE2FE255715BB00DF084D /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 		6631FEC5BC7483844F4A4633 /* Pods-NewToViper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewToViper.debug.xcconfig"; path = "Target Support Files/Pods-NewToViper/Pods-NewToViper.debug.xcconfig"; sourceTree = "<group>"; };
 		E64B500E5507E14DEC583241 /* Pods_NewToViperTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewToViperTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E64D890A59BBE13143251C02 /* Pods-NewToViperTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewToViperTests.debug.xcconfig"; path = "Target Support Files/Pods-NewToViperTests/Pods-NewToViperTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FA606C4C256171C10066CCB6 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 		FAFAE2F2255715B900DF084D /* NewToViper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewToViper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAFAE2F5255715B900DF084D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAFAE2FC255715B900DF084D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				FAFAE323255C64DB00DF084D /* LoginVC.swift */,
+				FA606C4C256171C10066CCB6 /* SignUpVC.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -305,6 +308,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAFAE2F6255715B900DF084D /* AppDelegate.swift in Sources */,
+				FA606C4D256171C10066CCB6 /* SignUpVC.swift in Sources */,
 				FAFAE324255C64DB00DF084D /* LoginVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

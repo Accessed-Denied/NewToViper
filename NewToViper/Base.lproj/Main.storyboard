@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Mbt-7L-Aij">
     <device id="retina4_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
@@ -42,27 +42,17 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="240" height="50"/>
                                                 <subviews>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Email Address" placeholder="Email Address" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="82W-nf-kbv">
-                                                        <rect key="frame" x="0.0" y="0.0" width="240" height="49"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="240" height="50"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="17"/>
                                                         <textInputTraits key="textInputTraits"/>
                                                     </textField>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gkX-V5-zm6">
-                                                        <rect key="frame" x="0.0" y="49" width="240" height="1"/>
-                                                        <color key="backgroundColor" red="0.89803921568627454" green="0.41960784313725491" blue="0.50196078431372548" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="1" id="d0s-oN-fV4"/>
-                                                        </constraints>
-                                                    </view>
                                                 </subviews>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="0AO-Rf-df1"/>
-                                                    <constraint firstItem="gkX-V5-zm6" firstAttribute="leading" secondItem="OkJ-Rw-UhJ" secondAttribute="leading" id="3qL-s5-7Vw"/>
-                                                    <constraint firstAttribute="bottom" secondItem="gkX-V5-zm6" secondAttribute="bottom" id="5Uc-7X-op1"/>
-                                                    <constraint firstItem="gkX-V5-zm6" firstAttribute="top" secondItem="82W-nf-kbv" secondAttribute="bottom" id="MAc-bE-cHs"/>
+                                                    <constraint firstAttribute="bottom" secondItem="82W-nf-kbv" secondAttribute="bottom" id="ToF-GT-cGM"/>
                                                     <constraint firstItem="82W-nf-kbv" firstAttribute="leading" secondItem="OkJ-Rw-UhJ" secondAttribute="leading" id="Tsq-iK-1AH"/>
-                                                    <constraint firstAttribute="trailing" secondItem="gkX-V5-zm6" secondAttribute="trailing" id="XzZ-sM-gNf"/>
                                                     <constraint firstAttribute="trailing" secondItem="82W-nf-kbv" secondAttribute="trailing" id="YVG-v5-Q4m"/>
                                                     <constraint firstItem="82W-nf-kbv" firstAttribute="top" secondItem="OkJ-Rw-UhJ" secondAttribute="top" id="l9q-Ka-5cP"/>
                                                 </constraints>
@@ -71,27 +61,17 @@
                                                 <rect key="frame" x="0.0" y="80" width="240" height="50"/>
                                                 <subviews>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="123456" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="T53-nX-LkF">
-                                                        <rect key="frame" x="0.0" y="0.0" width="240" height="49"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="240" height="50"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="17"/>
                                                         <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                                     </textField>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kxh-Rk-AB6">
-                                                        <rect key="frame" x="0.0" y="49" width="240" height="1"/>
-                                                        <color key="backgroundColor" red="0.8980392157" green="0.41960784309999999" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="1" id="bKb-qJ-CYZ"/>
-                                                        </constraints>
-                                                    </view>
                                                 </subviews>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstItem="T53-nX-LkF" firstAttribute="leading" secondItem="qHv-lp-AOW" secondAttribute="leading" id="1Pr-9T-9aC"/>
-                                                    <constraint firstItem="kxh-Rk-AB6" firstAttribute="leading" secondItem="qHv-lp-AOW" secondAttribute="leading" id="Dc7-4z-fJI"/>
                                                     <constraint firstItem="T53-nX-LkF" firstAttribute="top" secondItem="qHv-lp-AOW" secondAttribute="top" id="OGa-FV-Weh"/>
-                                                    <constraint firstAttribute="trailing" secondItem="kxh-Rk-AB6" secondAttribute="trailing" id="QND-vS-1vM"/>
-                                                    <constraint firstAttribute="bottom" secondItem="kxh-Rk-AB6" secondAttribute="bottom" id="dEd-6G-flF"/>
-                                                    <constraint firstItem="kxh-Rk-AB6" firstAttribute="top" secondItem="T53-nX-LkF" secondAttribute="bottom" id="ezh-ys-Es2"/>
+                                                    <constraint firstAttribute="bottom" secondItem="T53-nX-LkF" secondAttribute="bottom" id="g94-pw-Lwy"/>
                                                     <constraint firstAttribute="trailing" secondItem="T53-nX-LkF" secondAttribute="trailing" id="jSk-UR-yZX"/>
                                                     <constraint firstAttribute="height" constant="50" id="xtA-jC-Qou"/>
                                                 </constraints>
@@ -172,6 +152,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <navigationItem key="navigationItem" id="8vE-se-Xie"/>
                     <connections>
                         <outlet property="emailTextfield" destination="82W-nf-kbv" id="KJs-CP-k0W"/>
                         <outlet property="emailView" destination="OkJ-Rw-UhJ" id="Aev-st-FvX"/>
@@ -182,7 +163,197 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="139" y="99"/>
+            <point key="canvasLocation" x="1136.25" y="98.239436619718305"/>
+        </scene>
+        <!--Sign UpVC-->
+        <scene sceneID="haf-2O-h6i">
+            <objects>
+                <viewController storyboardIdentifier="SignUpVC" id="Mbt-7L-Aij" customClass="SignUpVC" customModule="NewToViper" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="djc-IZ-fBQ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="h5b-cv-qbz">
+                                <rect key="frame" x="40" y="24" width="240" height="520"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vOx-8T-6o1">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="40"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SIGN UP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VfA-Od-2mp">
+                                                <rect key="frame" x="46" y="0.0" width="148" height="46.5"/>
+                                                <fontDescription key="fontDescription" name="TrebuchetMS-Bold" family="Trebuchet MS" pointSize="40"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="VfA-Od-2mp" firstAttribute="centerX" secondItem="vOx-8T-6o1" secondAttribute="centerX" id="4OQ-qt-yMK"/>
+                                            <constraint firstAttribute="height" constant="40" id="eD3-9P-KMN"/>
+                                            <constraint firstItem="VfA-Od-2mp" firstAttribute="top" secondItem="vOx-8T-6o1" secondAttribute="top" id="ny7-8c-GCG"/>
+                                        </constraints>
+                                    </view>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="5pB-Qy-Rpe">
+                                        <rect key="frame" x="0.0" y="90" width="240" height="430"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B6E-Vg-O0q">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="50"/>
+                                                <subviews>
+                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DA7-4M-59d">
+                                                        <rect key="frame" x="0.0" y="0.0" width="240" height="50"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="17"/>
+                                                        <textInputTraits key="textInputTraits"/>
+                                                    </textField>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstItem="DA7-4M-59d" firstAttribute="leading" secondItem="B6E-Vg-O0q" secondAttribute="leading" id="0Nm-Ro-nNX"/>
+                                                    <constraint firstItem="DA7-4M-59d" firstAttribute="top" secondItem="B6E-Vg-O0q" secondAttribute="top" id="4H9-Lw-Tf0"/>
+                                                    <constraint firstAttribute="trailing" secondItem="DA7-4M-59d" secondAttribute="trailing" id="67o-az-v7C"/>
+                                                    <constraint firstAttribute="height" constant="50" id="MaT-Gf-y2X"/>
+                                                    <constraint firstAttribute="bottom" secondItem="DA7-4M-59d" secondAttribute="bottom" id="qRo-vg-Sk0"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2uY-9a-EqX">
+                                                <rect key="frame" x="0.0" y="80" width="240" height="50"/>
+                                                <subviews>
+                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Email Address" placeholder="Email Address" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bat-Zj-VKV">
+                                                        <rect key="frame" x="0.0" y="0.0" width="240" height="50"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="17"/>
+                                                        <textInputTraits key="textInputTraits"/>
+                                                    </textField>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstItem="bat-Zj-VKV" firstAttribute="leading" secondItem="2uY-9a-EqX" secondAttribute="leading" id="6Du-Rn-IkX"/>
+                                                    <constraint firstAttribute="height" constant="50" id="Fy2-oC-Orb"/>
+                                                    <constraint firstItem="bat-Zj-VKV" firstAttribute="top" secondItem="2uY-9a-EqX" secondAttribute="top" id="Hl7-di-JKp"/>
+                                                    <constraint firstAttribute="bottom" secondItem="bat-Zj-VKV" secondAttribute="bottom" id="aUa-5O-3Sp"/>
+                                                    <constraint firstAttribute="trailing" secondItem="bat-Zj-VKV" secondAttribute="trailing" id="e58-Sw-mV7"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SRq-Cv-WGC">
+                                                <rect key="frame" x="0.0" y="160" width="240" height="50"/>
+                                                <subviews>
+                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="123456" placeholder="Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="S5J-sg-EoY">
+                                                        <rect key="frame" x="0.0" y="0.0" width="240" height="50"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="17"/>
+                                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                                    </textField>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="bottom" secondItem="S5J-sg-EoY" secondAttribute="bottom" id="8MZ-D0-CDi"/>
+                                                    <constraint firstAttribute="height" constant="50" id="TvT-MK-OfI"/>
+                                                    <constraint firstItem="S5J-sg-EoY" firstAttribute="top" secondItem="SRq-Cv-WGC" secondAttribute="top" id="dPx-8c-JEa"/>
+                                                    <constraint firstAttribute="trailing" secondItem="S5J-sg-EoY" secondAttribute="trailing" id="jod-Ca-Pji"/>
+                                                    <constraint firstItem="S5J-sg-EoY" firstAttribute="leading" secondItem="SRq-Cv-WGC" secondAttribute="leading" id="u0F-kl-zco"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g3W-DI-eCj">
+                                                <rect key="frame" x="0.0" y="240" width="240" height="50"/>
+                                                <subviews>
+                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="123456" placeholder="Confirm Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OOp-sW-11a">
+                                                        <rect key="frame" x="0.0" y="0.0" width="240" height="50"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="17"/>
+                                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                                    </textField>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstItem="OOp-sW-11a" firstAttribute="leading" secondItem="g3W-DI-eCj" secondAttribute="leading" id="fNc-bF-ljO"/>
+                                                    <constraint firstAttribute="trailing" secondItem="OOp-sW-11a" secondAttribute="trailing" id="m7r-bN-TUr"/>
+                                                    <constraint firstAttribute="bottom" secondItem="OOp-sW-11a" secondAttribute="bottom" id="mBf-4V-3Ci"/>
+                                                    <constraint firstAttribute="height" constant="50" id="ntX-dD-ZUW"/>
+                                                    <constraint firstItem="OOp-sW-11a" firstAttribute="top" secondItem="g3W-DI-eCj" secondAttribute="top" id="xJP-Id-fDQ"/>
+                                                </constraints>
+                                            </view>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wdq-nv-j8c">
+                                                <rect key="frame" x="0.0" y="320" width="240" height="50"/>
+                                                <color key="backgroundColor" red="0.12941176469999999" green="0.14117647059999999" blue="0.17254901959999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="Hfj-wG-zTP"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="TrebuchetMS-Bold" family="Trebuchet MS" pointSize="17"/>
+                                                <state key="normal" title="Register">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="registerBtnIsPressed:" destination="Mbt-7L-Aij" eventType="touchUpInside" id="Xzd-uO-aFF"/>
+                                                </connections>
+                                            </button>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="n7K-wG-boq">
+                                                <rect key="frame" x="0.0" y="400" width="240" height="30"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tLh-B5-wTv">
+                                                        <rect key="frame" x="28" y="0.0" width="184" height="30"/>
+                                                        <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="14"/>
+                                                        <state key="normal" title="Already have account? LOGIN">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="alreadyHaveAccountBtnIsPressed:" destination="Mbt-7L-Aij" eventType="touchUpInside" id="9dl-v6-vxP"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstItem="tLh-B5-wTv" firstAttribute="centerX" secondItem="n7K-wG-boq" secondAttribute="centerX" id="0JY-fz-ukG"/>
+                                                    <constraint firstItem="tLh-B5-wTv" firstAttribute="centerY" secondItem="n7K-wG-boq" secondAttribute="centerY" id="M3f-hQ-20a"/>
+                                                    <constraint firstAttribute="height" constant="30" id="WS6-QV-BRq"/>
+                                                    <constraint firstItem="tLh-B5-wTv" firstAttribute="top" secondItem="n7K-wG-boq" secondAttribute="top" id="ZeC-b2-7U6"/>
+                                                    <constraint firstAttribute="bottom" secondItem="tLh-B5-wTv" secondAttribute="bottom" id="ldV-Ha-ERW"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.27450980392156865" green="0.29411764705882354" blue="0.3411764705882353" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="h5b-cv-qbz" firstAttribute="leading" secondItem="sm3-Ea-gzd" secondAttribute="leading" constant="40" id="7d2-Ti-wwF"/>
+                            <constraint firstItem="h5b-cv-qbz" firstAttribute="centerY" secondItem="djc-IZ-fBQ" secondAttribute="centerY" id="cP6-Uc-1pM"/>
+                            <constraint firstItem="sm3-Ea-gzd" firstAttribute="trailing" secondItem="h5b-cv-qbz" secondAttribute="trailing" constant="40" id="yOd-Vc-Lqh"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="sm3-Ea-gzd"/>
+                    </view>
+                    <connections>
+                        <outlet property="confirmPasswordTextfield" destination="OOp-sW-11a" id="Y2D-0d-sqS"/>
+                        <outlet property="confirmPasswordView" destination="g3W-DI-eCj" id="sDc-lN-i9j"/>
+                        <outlet property="emailTextfield" destination="bat-Zj-VKV" id="j7C-98-Xu2"/>
+                        <outlet property="emailView" destination="2uY-9a-EqX" id="ezq-d0-uNA"/>
+                        <outlet property="nameTextfield" destination="DA7-4M-59d" id="2NC-yl-3QD"/>
+                        <outlet property="nameView" destination="B6E-Vg-O0q" id="C9k-0W-JpU"/>
+                        <outlet property="passwordTextfield" destination="S5J-sg-EoY" id="Sgq-BO-yUW"/>
+                        <outlet property="passwordView" destination="SRq-Cv-WGC" id="d3C-ad-Poy"/>
+                        <outlet property="registerBtn" destination="Wdq-nv-j8c" id="xK7-Le-qTF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="R9h-Vz-Uiw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2012" y="98"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="CM5-q4-Gys">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="xu2-fH-FRh" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="WkW-r1-UYL">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="sHN-Wt-m4b"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Osw-nw-Ds0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="138.75" y="98.239436619718305"/>
         </scene>
     </scenes>
 </document>

@@ -10,7 +10,6 @@
 		C2E42C6FFD38532EBE08125E /* Pods_NewToViper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E53F5B0AC5EA2BD2060AE48 /* Pods_NewToViper.framework */; };
 		ED931CAE11CE2AC6CB220E72 /* Pods_NewToViperTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E64B500E5507E14DEC583241 /* Pods_NewToViperTests.framework */; };
 		FAFAE2F6255715B900DF084D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFAE2F5255715B900DF084D /* AppDelegate.swift */; };
-		FAFAE2F8255715B900DF084D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFAE2F7255715B900DF084D /* SceneDelegate.swift */; };
 		FAFAE2FD255715B900DF084D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAFAE2FB255715B900DF084D /* Main.storyboard */; };
 		FAFAE2FF255715BB00DF084D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAFAE2FE255715BB00DF084D /* Assets.xcassets */; };
 		FAFAE302255715BB00DF084D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAFAE300255715BB00DF084D /* LaunchScreen.storyboard */; };
@@ -37,7 +36,6 @@
 		E64D890A59BBE13143251C02 /* Pods-NewToViperTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewToViperTests.debug.xcconfig"; path = "Target Support Files/Pods-NewToViperTests/Pods-NewToViperTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FAFAE2F2255715B900DF084D /* NewToViper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewToViper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAFAE2F5255715B900DF084D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FAFAE2F7255715B900DF084D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FAFAE2FC255715B900DF084D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FAFAE2FE255715BB00DF084D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAFAE301255715BB00DF084D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -113,7 +111,6 @@
 			children = (
 				FAFAE322255C64CA00DF084D /* View */,
 				FAFAE2F5255715B900DF084D /* AppDelegate.swift */,
-				FAFAE2F7255715B900DF084D /* SceneDelegate.swift */,
 				FAFAE2FB255715B900DF084D /* Main.storyboard */,
 				FAFAE2FE255715BB00DF084D /* Assets.xcassets */,
 				FAFAE300255715BB00DF084D /* LaunchScreen.storyboard */,
@@ -308,7 +305,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAFAE2F6255715B900DF084D /* AppDelegate.swift in Sources */,
-				FAFAE2F8255715B900DF084D /* SceneDelegate.swift in Sources */,
 				FAFAE324255C64DB00DF084D /* LoginVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -473,7 +469,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6Q233F3ZPX;
 				INFOPLIST_FILE = NewToViper/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -493,7 +489,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6Q233F3ZPX;
 				INFOPLIST_FILE = NewToViper/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

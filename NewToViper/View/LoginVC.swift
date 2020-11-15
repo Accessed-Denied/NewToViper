@@ -46,5 +46,6 @@ class LoginVC: UIViewController {
     
     //MARK: - registerBtnIsPressed
     @IBAction func registerBtnIsPressed(_ sender: UIButton) {
+        self.navigationController?.popViewController(animated: true)
     }
 }

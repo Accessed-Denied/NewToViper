@@ -49,10 +49,16 @@ class SignUpVC: UIViewController {
     
     //MARK: - registerBtnIsPressed
     @IBAction func registerBtnIsPressed(_ sender: UIButton) {
+        let STORYBOARD = UIStoryboard(name: "Main", bundle: nil)
+        let vc = STORYBOARD.instantiateViewController(withIdentifier: "LoginVC") as! LoginVC
+        self.navigationController?.pushViewController(vc, animated: true)
     }
     
     //MARK: - alreadyHaveAccountBtnIsPressed
     @IBAction func alreadyHaveAccountBtnIsPressed(_ sender: UIButton) {
+        let STORYBOARD = UIStoryboard(name: "Main", bundle: nil)
+        let vc = STORYBOARD.instantiateViewController(withIdentifier: "LoginVC") as! LoginVC
+        self.navigationController?.pushViewController(vc, animated: true)
     }
     
 }
